@@ -1,5 +1,18 @@
 # Bootstrap-5_Template-ProjectDoc
 
+* SublimeText (code editor): https://www.sublimetext.com
+
+* Bitnami MAMP Stack (localhost dev): https://bitnami.com/stack/mamp/installer
+
+* Github Desktop (Code Repository Management): https://desktop.github.com
+
+* Bootstrap 5 (Framework): https://getbootstrap.com
+
+* Font Awesome 6 (Icons): https://fontawesome.com
+
+* PrismJS (Code Syntax Highlighting): https://prismjs.com
+
+
  ProjectDoc | A Documentation Template in Bootstrap 5
 
  Description: A basic Bootstrap 5 single page Starter Template shared simply "AS IS" as a base starting point for any desired project pkg and demo documentation inclusions.

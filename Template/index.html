@@ -6,9 +6,9 @@
            <title>ProjectDoc - Documentation Template</title>
            <!-- CSS Files -->
            <!-- Bootstrap CSS -->  
-           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" />
            <!-- Font Awesome CSS -->
-           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />   
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />   
            <!-- Prism JS CSS -->
            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/themes/prism.min.css"/>
            <!-- Prism JS plugins CSS -->
@@ -18,7 +18,7 @@
            <style>
            pre[class*="language-"][data-language]::before {
            	 top: 40px;
-           	 z-index:  999;	
+           	 z-index: 997;	
            	 border-radius: 5px 0 0 5px;
            }
            pre {
@@ -32,13 +32,17 @@
              bottom: 20px;
              right: 20px;
              display: none;
+           	 z-index: 999;             
            }
            </style>                      
       </head>  
       <body class="bg-light">  
            <!-- Container -->
            <div class="container mt-5">
-                <ol class="breadcrumb mb-4">
+           	  <!-- Page Heading Title -->
+           	  <h4><i class="fa-solid fa-code"></i> ProjectDoc Title</h4>
+           	    <!-- Breadcrumb -->
+                <ol class="breadcrumb mb-4 mt-4 p-2 bg-white border border-default rounded-3">
                      <li class="breadcrumb-item"><i class="fa-solid fa-file-code"></i> <a href="index.html">ProjectDoc</a></li>    
                      <li class="breadcrumb-item active"><i class="fa-solid fa-binoculars"></i> View Documentation</li>  
                 </ol>
@@ -178,7 +182,7 @@ $mysqli = mysqli_connect('localhost', 'db_user', 'db_password', 'db_name');</cod
            <!-- Container -->
            <div class="container">
              <footer class="py-3 my-4">
-               <p class="text-center text-secondary">ProjectDoc &copy; 2022 <small><span class="love">Made with <i class="fa-solid fa-heart text-danger"></i> by <a class="text-primary" href="https://github.com/ic-myXMB" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">ic_myXMB</a></span></small></p>
+               <p class="text-center text-secondary">ProjectDoc &copy; 2022 <br /><small><span class="love">Made with <i class="fa-solid fa-heart text-danger"></i> by <a class="text-primary" href="https://github.com/ic-myXMB" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">ic_myXMB</a></span></small></p>
              </footer>             
            </div> <!-- ./ end container -->
            <!-- Back To Top Button -->
@@ -214,7 +218,7 @@ $mysqli = mysqli_connect('localhost', 'db_user', 'db_password', 'db_name');</cod
            <!-- JQuery JS -->
            <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
            <!-- Bootstrap JS -->
-           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
            <!-- Prism JS -->
            <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.min.js"></script>
            <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/components/prism-sql.min.js"></script>  
